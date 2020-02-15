@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    Hello, {{ auth()->user()->name }}!
+                    Hello, {{ auth()->user()->name }}! <br>
+                    Welcome to dashboard ;)
                 </div>
             </div>
         </div>
